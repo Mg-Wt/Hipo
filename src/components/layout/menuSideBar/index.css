@@ -1,0 +1,60 @@
+.main-sideMenu{
+    height: 100%;
+}
+.ant-menu{
+    background-color: transparent;
+    padding: 0 10px;
+    font-family: YuKyo_Yoko-Medium, YuKyo_Yoko;
+}
+.ant-menu-item,.ant-menu-submenu{
+    margin-bottom: 14px !important;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.ant-menu-item-selected{
+    border-radius: 3px;
+    background: #ffffff;
+}
+.ant-menu-item-active{
+    border-radius: 3px;
+    background: rgba(193, 206, 247, 0.2);
+    color: #fff !important;
+}
+
+.ant-menu-item-active a:hover{
+    color:#fff;
+    font-size: 1.2rem;
+}
+.ant-menu-item-selected a:hover{
+    color: #ff257b;
+    font-size: 1rem;
+}
+.ant-menu-title-content{
+    display: flex;
+    align-items: center;
+}
+.slide-icon{
+    margin-right: .8rem;
+}
+.ant-menu-sub.ant-menu-inline{
+    background-color: transparent;
+}
+.ant-menu-item::after,
+.ant-menu-inline{
+    border: none !important;
+}
+.ant-menu-title-content a{
+    color: #ffffff;
+}
+.ant-menu-item-selected .ant-menu-title-content .active,
+.ant-menu-item-selected,
+.ant-menu-submenu-selected{
+    color: #ff257b;
+}
+.ant-menu-item-selected :hover{
+    color: #ff257b;
+}
+.ant-menu-submenu-active :hover{
+    color: #fff;
+    font-size: 1.2rem;
+}

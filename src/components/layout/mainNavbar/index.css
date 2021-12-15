@@ -1,0 +1,110 @@
+.main-navbar {
+  width: 100%;
+  height: 70px;
+  border-radius: 6px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  box-shadow: -2px 0 3px -1px #ccc, 0 -2px 3px -1px #eee, 0 2px 6px -1px #ccc,
+    2px 0 6px -1px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem;
+}
+.nav-title {
+  font-size: 1.2rem;
+  font-family: Arial-BoldMT, Arial;
+  font-weight: bold;
+  color: #333333;
+}
+.nav-toggle {
+  min-width: 40%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.connect-mode {
+  height: 3rem;
+  background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga6e5059830f6fc0d94b5d7a47f8520c8c9febcdb688600bb686d74fd9b4bf6cf)
+    100% no-repeat;
+  width: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.wallet-type {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-right: 0.8rem;
+}
+.wallet-text {
+  /* margin-top:16px; */
+  height: 1.4rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 1rem;
+  letter-spacing: 0.4571428596973419px;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  text-align: center;
+}
+.content {
+  height: 3rem;
+  line-height: 3rem;
+}
+.connect-text {
+  width: 7.2rem;
+  height: 3rem;
+  line-height: 3rem;
+  display: block;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-family: PingFangSC-Medium;
+  white-space: nowrap;
+  margin-left: 2.6rem;
+}
+@media (max-width: 767.98px) {
+  .wallet-type {
+    display: none;
+    box-shadow: none;
+  }
+  .nav-title {
+    display: none;
+  }
+  .nav-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-navbar {
+    margin: 0 !important;
+  }
+}
+.Modal-Tittle-Subheading{
+  position: absolute;
+  left: 24px;
+  top: 37px;
+}
+.Modal-Tittle-Wallet{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+.connect-type{
+  width: 45%;
+  margin-top:10px;
+ }
+ .connect-type img{
+   width: 100%;
+   height: 100%;
+ }
+ .ant-modal-header{
+   border-bottom: none;
+ }

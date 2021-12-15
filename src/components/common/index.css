@@ -1,0 +1,46 @@
+.step-container {
+  width: 497px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(44, 63, 88, 0.12);
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+}
+.step-title {
+  height: 67px;
+  border-bottom: 1px solid #e9e3f4;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.step-title header {
+  border-left: 2px solid #ff3270;
+  padding-left: 28px;
+  height: 23px;
+  font-size: 19px;
+  font-family: PTSans-CaptionBold, PTSans;
+  font-weight: 600;
+  color: #333333;
+}
+main {
+  padding: 20px;
+  min-width: 75px;
+  border-bottom: 1px solid #e9e3f4;
+}
+.step-action {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-btn {
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  border: 1px solid #ff3270;
+  width: 228px;
+  height: 38px;
+  color: #ff3270;
+}
